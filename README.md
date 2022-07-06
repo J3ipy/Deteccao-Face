@@ -1,2 +1,3 @@
-# Deteccao-Face
-Programa Feito em Python e Jupyter Network usando a IDE do google colab, estudo aplicado sobre IA e Machine Learning
+![header](file:///C:/Users/android/Downloads/Trabalho%20de%20Qu%C3%ADmica%20.png)
+
+> Status: Developing ⚠️
