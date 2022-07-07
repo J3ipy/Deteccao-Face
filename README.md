@@ -16,7 +16,6 @@
     <td>Jupyter Notebook</td>
   </tr>
 <table>
-  <br><br>
   
   ## 🚀 How to run the application:
   
@@ -27,9 +26,8 @@
 4) Add the rest of code.
 6) Enjoy it!
   
-  <center><img src=""></center> 
+  <center><img src="https://user-images.githubusercontent.com/97753966/177850823-234f38eb-2728-4eb9-8e7e-e8009c1b8818.gif"></center> 
   
-  <br><br>
     
 
    **Send me a message** 
