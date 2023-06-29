@@ -6,7 +6,7 @@ from IPython.display import display, Javascript
 from google.colab.output import eval_js
 #from base64 import b64decode
 
-"""*Start* webcam"""
+"""*Ligando a* webcam"""
 
 def take_photo(filename='photo.jpg', quality=0.8):
   js = Javascript('''
@@ -25,10 +25,10 @@ def take_photo(filename='photo.jpg', quality=0.8):
       video.srcObject = stream;
       await video.play();
 
-      // Resize the output to fit the video element.
+      // Redimensione a saída para ajustar o elemento de vídeo.
       google.colab.output.setIframeHeight(document.documentElement.scrollHeight, true);
 
-      // Wait for Capture to be clicked.
+      // ESPERE A CAPTURA PARA CLICAR.
       await new Promise((resolve) => capture.onclick = resolve);
 
       const canvas = document.createElement('canvas');
@@ -64,6 +64,7 @@ image = imutils.resize(image, width=400)
 print(w,h)
 cv2_imshow(image)
 
+#NOTAS DE ESTUDOS
 """O detector de face em Deep Learning do OpenCV é baseado na estrutura Single Shot Detector (SSD) com uma rede base ResNet. A rede é definida e treinada usando o [Caffe Deep Learning framework](https://caffe.berkeleyvision.org/)
 
 Baixe o modelo de detecção de rosto pré-treinado, composto por dois arquivos:
@@ -118,6 +119,6 @@ for i in range(0, detections.shape[2]):
 		cv2.putText(image, text, (startX, y),
 			cv2.FONT_HERSHEY_SIMPLEX, 0.45, (0, 0, 255), 2)
 
-"""Show the resulting image"""
+"""Agora veja a mágica acontecer 🐧"""
 
 cv2_imshow(image)
